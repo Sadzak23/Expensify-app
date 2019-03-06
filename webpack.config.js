@@ -8,7 +8,6 @@ module.exports = (env) => {
   return {
     entry: './src/app.js',
     //entry: './src/play/redux-expensify.js',
-    //entry: './src/play/hoc.js',
     output: {
       path: path.resolve(__dirname, 'public', 'dist'),
       filename: 'bundle.js'
@@ -36,11 +35,6 @@ module.exports = (env) => {
             }
           ]
         })
-        // use: [
-        //   'style-loader',
-        //   'css-loader',
-        //   'sass-loader'
-        // ]
       }]
     },
     plugins: [
