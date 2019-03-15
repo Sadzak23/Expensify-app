@@ -12,7 +12,7 @@ export default [{
   description: "Gas bill",
   note: "",
   amount: 2500,
-  createdAt: moment(0).valueOf()
+  createdAt: 0
 },
 {
   id: "3",
