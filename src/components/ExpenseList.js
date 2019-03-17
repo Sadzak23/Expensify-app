@@ -13,9 +13,6 @@ export const ExpenseList = (props) => (
           (<ExpenseListItem
             key={expense.id}
             {...expense}
-          // description={e.description}
-          // amount={e.amount}
-          // createdAt={e.createdAt}
           />))
         )
     }
