@@ -4,7 +4,7 @@ exports[`Should render ExpenseList with expenses 1`] = `
 <div>
   <ExpenseListItem
     amount={1520}
-    createdAt={"1969-12-30T00:00:00.000Z"}
+    createdAt={-172800000}
     description="Water bill"
     id="1"
     key="1"

@@ -5,7 +5,7 @@ export default [{
   description: "Water bill",
   note: "Last months bill",
   amount: 1520,
-  createdAt: moment(0).subtract(2, "days")
+  createdAt: moment(0).subtract(2, "days").valueOf()
 },
 {
   id: "2",
