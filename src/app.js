@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
-import { addExpense, removeExpense, editExpense } from './actions/expenses';
+import { startAddExpense, removeExpense, editExpense } from './actions/expenses';
 import getVisibleExpenses from './selectors/expenses';
 import configureStore from './store/configureStore';
 import 'normalize.css/normalize.css';
@@ -13,7 +13,6 @@ import './firebase/firebase'
 const store = configureStore();
 
 // store.dispatch(setTextFilter("water"));
-
 // setTimeout(() => {
 //   store.dispatch(setTextFilter("bill"))
 // }, 3000)

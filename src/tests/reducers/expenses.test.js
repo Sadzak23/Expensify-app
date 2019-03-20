@@ -9,7 +9,7 @@ test("Should set default filter values", () => {
 test("Should Add Expense", () => {
   const action = {
     type: "ADD_EXPENSE",
-    expenses: {
+    expense: {
       description: "New car",
       note: "Brand new",
       amount: 15000,
@@ -17,7 +17,7 @@ test("Should Add Expense", () => {
     }
   };
   const state = expensesReducer(expenses, action);
-  expect(state).toEqual([...expenses, action.expenses]);
+  expect(state).toEqual([...expenses, action.expense]);
 });
 
 test("Should Remove Expense by id", () => {
