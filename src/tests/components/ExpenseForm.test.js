@@ -3,7 +3,6 @@ import ExpenseForm from '../../components/ExpenseForm';
 import {shallow} from 'enzyme';
 import moment from 'moment';
 import expenses from '../fixtures/expenses';
-import Jest from 'jest';
 
 test('Should render ExpenseForm correctly', () => {
   const wrapper = shallow(<ExpenseForm />);
