@@ -1,4 +1,6 @@
-.DateInput {
-  padding-right: 22px;
-  width: 110px;
+.SingleDatePickerInput__withBorder {
+  width: 100%;
+  .DateInput {
+    width: 100%;
+  }
 }

@@ -1,38 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Should render ExpenseList with expenses 1`] = `
-<div>
-  <ExpenseListItem
-    amount={1520}
-    createdAt={-172800000}
-    description="Water bill"
-    id="1"
-    key="1"
-    note="Last months bill"
-  />
-  <ExpenseListItem
-    amount={2500}
-    createdAt={0}
-    description="Gas bill"
-    id="2"
-    key="2"
-    note=""
-  />
-  <ExpenseListItem
-    amount={2000}
-    createdAt={172800000}
-    description="Rent"
-    id="3"
-    key="3"
-    note="Last months rent"
-  />
+<div
+  className="content-container"
+>
+  <div>
+    <div
+      className="expense-list-header"
+    >
+      <p
+        className="show-mobile"
+      >
+        Expenses
+      </p>
+      <p
+        className="show-desktop"
+      >
+        Expense
+      </p>
+      <p
+        className="show-desktop"
+      >
+        Amount
+      </p>
+    </div>
+    <div
+      className="expense-list-body"
+    >
+      <ExpenseListItem
+        amount={1520}
+        createdAt={-172800000}
+        description="Water bill"
+        id="1"
+        key="1"
+        note="Last months bill"
+      />
+      <ExpenseListItem
+        amount={2500}
+        createdAt={0}
+        description="Gas bill"
+        id="2"
+        key="2"
+        note=""
+      />
+      <ExpenseListItem
+        amount={2000}
+        createdAt={172800000}
+        description="Rent"
+        id="3"
+        key="3"
+        note="Last months rent"
+      />
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Should render ExpenseList with no expenses 1`] = `
-<div>
-  <p>
-    No expenses
-  </p>
+<div
+  className="content-container"
+>
+  <div>
+    <div
+      className="expense-list-header"
+    >
+      <p
+        className="show-mobile"
+      >
+        Expenses
+      </p>
+      <p
+        className="show-desktop"
+      >
+        Expense
+      </p>
+      <p
+        className="show-desktop"
+      >
+        Amount
+      </p>
+    </div>
+    <div
+      className="expense-list-body"
+    >
+      <p
+        className="expense-list-no-exp"
+      >
+        No expenses
+      </p>
+    </div>
+  </div>
 </div>
 `;
